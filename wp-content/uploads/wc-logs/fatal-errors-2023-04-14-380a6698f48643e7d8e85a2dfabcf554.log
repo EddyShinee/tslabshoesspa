@@ -1,0 +1,50 @@
+2023-04-14T15:55:01+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1429504 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/themes/astra/assets/svg/svgs.json on line 1
+
+2023-04-14T15:58:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/functions.php on line 649
+
+2023-04-14T16:56:51+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+
+2023-04-14T17:05:54+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+
+2023-04-14T17:14:23+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+
+2023-04-14T17:26:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/includes/ajax-actions.php on line 3279
+
+2023-04-14T17:26:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/includes/ajax-actions.php on line 4863
+
+2023-04-14T18:55:43+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/includes/ajax-actions.php on line 4863
+
+2023-04-14T18:58:53+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/includes/ajax-actions.php on line 4863
+
+2023-04-14T19:02:11+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/includes/ajax-actions.php on line 4863
+

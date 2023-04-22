@@ -1,0 +1,34 @@
+2023-04-13T16:20:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php on line 2406
+
+2023-04-13T16:20:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php on line 2406
+
+2023-04-13T16:44:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1044480 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/functions.php on line 624
+
+2023-04-13T17:32:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/Requests/src/Transport/Curl.php on line 506
+
+2023-04-13T17:37:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1052672 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/functions.php on line 3125
+
+2023-04-13T17:40:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-image-editor-gd.php on line 208
+
+2023-04-13T17:50:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-image-editor-gd.php on line 208
+
+2023-04-13T17:55:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-image-editor-gd.php on line 208
+
+2023-04-13T18:04:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 241664 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-theme.php on line 1271
+
+2023-04-13T18:05:06+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/media-template.php on line 946
+
+2023-04-13T18:09:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/media.php on line 5306
+
+2023-04-13T18:34:51+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:295
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 295
+
