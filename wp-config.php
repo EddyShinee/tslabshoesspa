@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'tslabshoespa' );
+define( 'DB_NAME', 'nev65097_tslab' );
 
 /** Database username */
-define( 'DB_USER', 'tslabshoespa_admin' );
+define( 'DB_USER', 'nev65097_nevafarm' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'OvxmN5IHq&cYSG2zmfE6' );
+define( 'DB_PASSWORD', 'Abcd!@12345' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
