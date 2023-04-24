@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+define( 'WP_HOME', 'https://nevafarm.com' );
+define( 'WP_SITEURL', 'https://nevafarm.com' );
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'nev65097_tslab' );

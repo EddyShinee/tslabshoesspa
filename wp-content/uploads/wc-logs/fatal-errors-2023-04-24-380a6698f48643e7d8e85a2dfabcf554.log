@@ -1,2 +1,4 @@
 2023-04-24T07:51:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 36864 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/includes/base/controls-stack.php on line 620
 
+2023-04-24T15:30:22+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 81920 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/includes/fonts.php on line 1643
+
