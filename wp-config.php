@@ -26,7 +26,7 @@ define( 'DB_NAME', 'nev65097_tslab' );
 define( 'DB_USER', 'nev65097_nevafarm' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Abcd!@12345' );
+define( 'DB_PASSWORD', 'Abcd!@1234' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
