@@ -1,0 +1,6 @@
+2023-04-23T15:25:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor-pro/modules/query-control/controls/group-control-query.php on line 350
+
+2023-04-23T15:25:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 45056 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-content/plugins/elementor/includes/controls/groups/background.php on line 722
+
+2023-04-23T15:29:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 163840 bytes) in /Users/vuducthuan/Sites/localhost/tslabshoespa/wp-includes/functions.php on line 649
+
