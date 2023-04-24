@@ -25,7 +25,7 @@ define( 'WP_SITEURL', 'https://nevafarm.com' );
 define( 'DB_NAME', 'nev65097_tslab' );
 
 /** Database username */
-define( 'DB_USER', 'nev65097_nevafarm' );
+define( 'DB_USER', 'nev65097_root_tslab' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'Abcd!@1234' );
